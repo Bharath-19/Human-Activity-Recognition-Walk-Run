@@ -1,7 +1,8 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
-data/
+# data/                 <- remove or comment this line
+!data/walkrun.csv       <- explicitly allow this file
 "output models/*.h5"
 "output models/*.joblib"
 *.zip
